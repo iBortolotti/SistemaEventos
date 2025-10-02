@@ -1,0 +1,280 @@
+# ================================================================
+# .gitignore para Projeto Java Maven - Sistema de Eventos
+# ================================================================
+
+# ================================================================
+# Arquivos específicos do projeto que não devem ser versionados
+# ================================================================
+
+# Arquivos de documentação temporária/rascunho
+Projeto-Ver1.txt
+Projeto-VerMaven.txt
+
+# ================================================================
+# Java - Arquivos compilados
+# ================================================================
+
+# Arquivos .class compilados
+*.class
+
+# Arquivos .jar (exceto dependências explícitas)
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ================================================================
+# Maven - Diretórios e arquivos de build
+# ================================================================
+
+# Diretório target do Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Arquivos temporários do Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+# ================================================================
+# IDEs - Configurações específicas de ambiente
+# ================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.classpath
+.factorypath
+.buildpath
+.target
+.tern-project
+.texlipse
+.springBeans
+.recommenders/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ================================================================
+# Sistema Operacional
+# ================================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ================================================================
+# Arquivos de dados da aplicação
+# ================================================================
+
+# Arquivos de dados persistentes do sistema
+*.data
+events.data
+usuarios.data
+
+# Logs da aplicação
+*.log
+logs/
+*.out
+
+# ================================================================
+# Desenvolvimento e Deploy
+# ================================================================
+
+# Arquivos de configuração local
+application-local.properties
+application-dev.properties
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependências do Node.js (se houver)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de backup
+*.backup
+*.orig
+*.save
+
+# Arquivos temporários do editor
+*.swp
+*.swo
+*~
+
+# ================================================================
+# Segurança
+# ================================================================
+
+# Chaves e certificados
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+
+# Arquivos de configuração com dados sensíveis
+secrets.properties
+passwords.txt
+
+# ================================================================
+# Performance e Cache
+# ================================================================
+
+# Cache do Maven
+.m2/repository/
+.repository/
+
+# Cache do Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# ================================================================
+# Documentação gerada
+# ================================================================
+
+# JavaDoc gerado
+doc/
+docs/api/
+
+# Site do Maven
+site/
+
+# ================================================================
+# Teste e Cobertura
+# ================================================================
+
+# Relatórios de teste
+TEST-*.xml
+junit*.properties
+
+# Cobertura de código
+.coverage
+coverage/
+*.gcov
+*.gcno
+*.gcda
+
+# ================================================================
+# Docker (se usado no futuro)
+# ================================================================
+
+# Arquivos do Docker
+.dockerignore
+docker-compose.override.yml
+
+# ================================================================
+# Git
+# ================================================================
+
+# Arquivos temporários do Git
+*.patch
+*.diff
+
+# ================================================================
+# Outros
+# ================================================================
+
+# Arquivos grandes desnecessários
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Arquivos de imagem grandes
+*.psd
+*.ai
+
+# Arquivos compactados temporários
+*.7z
+*.dmg
+*.gz
+*.iso
+*.tar
+*.zipx
