@@ -72,8 +72,8 @@ public class MenuPrincipal {
     private void exibirBoasVindas() {
         limparTela();
         System.out.println("╔══════════════════════════════════════════════════════════════╗");
-        System.out.println("║                    SISTEMA DE EVENTOS                       ║");
-        System.out.println("║              Cadastro e Notificação de Eventos              ║");
+        System.out.println("║                    SISTEMA DE EVENTOS                        ║");
+        System.out.println("║              Cadastro e Notificação de Eventos               ║");
         System.out.println("╚══════════════════════════════════════════════════════════════╝");
         System.out.println();
         System.out.println("Bem-vindo ao Sistema de Eventos da sua cidade!");

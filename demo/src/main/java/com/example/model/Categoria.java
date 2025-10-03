@@ -16,7 +16,7 @@ public enum Categoria {
     /**
      * Categoria para eventos esportivos (jogos, campeonatos, corridas, etc.)
      */
-    EVENTO_ESPORTIVO("Evento Esportivo"),
+    ESPORTE("Esporte"),
     
     /**
      * Categoria para shows musicais e apresentações artísticas
@@ -24,24 +24,9 @@ public enum Categoria {
     SHOW("Show"),
     
     /**
-     * Categoria para eventos culturais (teatro, exposições, etc.)
+     * Categoria para palestras, seminários e eventos educacionais
      */
-    CULTURAL("Cultural"),
-    
-    /**
-     * Categoria para eventos gastronômicos (festivais de comida, degustações, etc.)
-     */
-    GASTRONOMICO("Gastronômico"),
-    
-    /**
-     * Categoria para eventos educacionais (palestras, workshops, seminários, etc.)
-     */
-    EDUCACIONAL("Educacional"),
-    
-    /**
-     * Categoria para eventos corporativos (reuniões, convenções, etc.)
-     */
-    CORPORATIVO("Corporativo"),
+    PALESTRA("Palestra"),
     
     /**
      * Categoria para outros tipos de eventos não especificados
